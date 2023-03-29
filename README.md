@@ -54,4 +54,4 @@ Example:
 pg_backup_and_restore -h staging.example.com -p 5432 -U myuser -s my_staging_db -u mylocaluser -l my_local_db
 ```
 
-This command will backup the my_staging_db database from the staging server and restore it to the my_local_db local database.
+This command will backup the `my_staging_db` database from the staging server and restore it to the `my_local_db` local database.
